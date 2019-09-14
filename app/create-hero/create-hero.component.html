@@ -1,0 +1,15 @@
+<h1>Hero form</h1>
+<form [formGroup]="form">
+  <div>
+    Name <input type="text" formControlName="name">
+  </div>
+  <div>
+    Description <input type="text" formControlName="description">
+  </div>
+  <div>
+    URL Image <input type="text" formControlName="image">
+  </div>
+  <div>
+    <input type="submit" (click)="doSubmit()">
+  </div>
+</form>
